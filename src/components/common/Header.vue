@@ -22,21 +22,21 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-  .header {
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.2);
-  }
+.header {
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.2);
+}
 
-  .pure-menu-heading.pure-menu-link {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+.pure-menu-heading.pure-menu-link {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
-  .pure-menu-link {
-    font-size: 1.2rem;
-  }
+.pure-menu-link {
+  font-size: 1.2rem;
+}
 
-  .pure-menu-link:hover {
-    background-color: #1768ac5c;
-  }
+.pure-menu-link:hover {
+  background-color: #1768ac5c;
+}
 </style>

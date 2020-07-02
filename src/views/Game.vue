@@ -124,7 +124,7 @@ export default {
       if (mode === 'normal') {
         const damage = this.calculateDamage(3, 10);
         this.monsterHealth -= damage;
-        this.createLog(true, `Player hits the Monster for ${damage}`);
+        this.createLog(true, `Player hits Monster for ${damage}`);
         if (this.checkWinner()) {
           return;
         }
@@ -132,7 +132,7 @@ export default {
       } else if (mode === 'special') {
         const damage = this.calculateDamage(5, 15);
         this.monsterHealth -= damage;
-        this.createLog(true, `Player hits the Monster for ${damage}`);
+        this.createLog(true, `Player hits Monster for ${damage}`);
         if (this.checkWinner()) {
           return;
         }

@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <app-header />
-      <main class="container">
-        <router-view />
-      </main>
+    <main class="container">
+      <router-view />
+    </main>
     <app-footer />
   </div>
 </template>
@@ -29,7 +29,6 @@ export default {
 }
 
 main.container {
-  min-height: 100vh;
-  margin-bottom: 6vh;
+  margin-bottom: 9vh;
 }
 </style>

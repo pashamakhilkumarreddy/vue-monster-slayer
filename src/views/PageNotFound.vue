@@ -1,5 +1,5 @@
 <template>
-  <div class="not-found mt-4">
+  <div class="not-found mt-6">
     <img src="../assets/images/NotFound.png" alt="Page Not Found"
     decoding="async" loading="lazy" importance="high" />
   </div>
@@ -7,5 +7,8 @@
 <script>
 export default {
   name: 'PageNotFound',
+  metaInfo: {
+    title: 'Not Found',
+  },
 };
 </script>
